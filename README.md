@@ -17,6 +17,26 @@ To help us whitelist a popular library that Libscore is failing to detect, see [
 
 Take a moment to thank Libscore's sponsors on Twitter: @[Stripe](https://twitter.com/stripe) and @[DigitalOcean](https://twitter.com/digitalocean)!
 
+## Help Wanted: Assign libraries to their official pages
+
+You're reading this because Libscore needs your help associating the library you clicked on with its corresponding Github page (or company domain in the case of an external script).
+
+We've decided to partner with [cdnjs.com](https://cdnjs.com) and merge the way we store meta data about libraries. By adding data directly to cdnjs package.json's we can keep track of which library matches which variable.
+
+cdnjs package.json's now contain a property called `namespace`, which is simply the main variable used for that library.
+
+e.g. `jQuery` is the main variable used by jQuery -> [package.json](https://github.com/cdnjs/cdnjs/blob/master/ajax/libs/jquery/package.json)
+
+**So to help us out**
+
+1. Load up the [list of libraries](https://github.com/cdnjs/cdnjs/tree/master/ajax/libs) on cdnjs
+2. Find the appropiate library and open the `package.json` file on github.com
+3. Click on the edit button which will load Github's online editor
+4. Add a property called `namespace` and set the corresponding variable
+5. Commit and submit a pull request (you should be able to do this all via Github's interface)
+
+We will then merge your pull request and it will eventually be parsed out of cdnjs and linked correctly to on Libscore.
+
 --
 
 ### Badges
