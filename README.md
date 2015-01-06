@@ -97,7 +97,7 @@ GET http://api.libscore.com/v1/libraries
 ##### Parameters:
 
 * **limit** - Specify the number of results to return e.g. `?limit=500`
-* **skip** - Specify the number of results to skip, useful for pagination e.g. `?limit=0`
+* **skip** - Specify the number of results to skip, useful for pagination e.g. `?skip=50`
 
 ----
 
@@ -138,7 +138,7 @@ GET http://api.libscore.com/v1/sites
 ##### Parameters:
 
 * **limit** - Specify the number of results to return e.g. `?limit=500`
-* **skip** - Specify the number of results to skip, useful for pagination e.g. `?limit=0`
+* **skip** - Specify the number of results to skip, useful for pagination e.g. `?skip=50`
 
 
 ----
@@ -155,7 +155,7 @@ GET http://api.libscore.com/v1/sites/:site
 ##### Parameters:
 
 * **limit** - Specify the number of results to return e.g. `?limit=500`
-* **skip** - Specify the number of results to skip, useful for pagination e.g. `?limit=0`
+* **skip** - Specify the number of results to skip, useful for pagination e.g. `?skip=50`
 
 ##### Examples:
 
@@ -178,7 +178,7 @@ GET http://api.libscore.com/v1/scripts
 ##### Parameters:
 
 * **limit** - Specify the number of results to return e.g. `?limit=500`
-* **skip** - Specify the number of results to skip, useful for pagination e.g. `?limit=0`
+* **skip** - Specify the number of results to skip, useful for pagination e.g. `?skip=50`
 
 
 ----
@@ -195,7 +195,7 @@ GET http://api.libscore.com/v1/scripts/:script
 ##### Parameters:
 
 * **limit** - Specify the number of results to return e.g. `?limit=500`
-* **skip** - Specify the number of results to skip, useful for pagination e.g. `?limit=0`
+* **skip** - Specify the number of results to skip, useful for pagination e.g. `?skip=50`
 
 ##### Examples:
 
